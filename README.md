@@ -3,29 +3,23 @@
 A small lab for three everyday problems: bad incoming data, duplicate work after a retry, and AI output that looks right but fails a check. One order-event example connects all three. Use any part on its own.
 
 ```bash
-curl -fsSLo flowcheck.zip https://trailblazergarage.com/projects/flowcheck.zip
-unzip flowcheck.zip
+git clone https://github.com/mrjhonyvidal/flowcheck.git
 cd flowcheck
 python3 -m flowcheck demo
 python3 -m unittest discover -s tests -v
 ```
 
-**You need:** Python 3.11 or newer, `curl` and `unzip`. Allow five minutes. **Account: none. Estimated service cost: £0.** There are no Python packages to install and no network calls after download. Laptop and electricity costs are excluded.
+**You need:** Git and Python 3.11 or newer. Allow five minutes. **Account: none. Estimated service cost: £0.** There are no Python packages to install and no network calls after cloning. Laptop and electricity costs are excluded.
+
+The interface is terminal commands and JSON reports. There is no web UI.
 
 You should see **1 accepted and 3 rejected rows**, then **2 inserted events** and **0 new events on retry**. The saved AI examples score **2/4** and **4/4**. These are hand-written teaching fixtures, not measured model performance.
 
-## Manual setup
+## If setup gets stuck
 
-If you prefer Git, or do not have `curl` and `unzip`:
-
-```bash
-git clone --depth 1 https://github.com/mrjhonyvidal/trailblazergarage.git
-cd trailblazergarage/examples/flowcheck
-python3 -m flowcheck demo
-python3 -m unittest discover -s tests -v
-```
-
-You can also download `flowcheck.zip` in a browser and extract it. On Windows, replace `python3` with `py -3`. Check `python3 --version` if a command fails. Run commands from the folder containing this README. You do not need to install or start the blog.
+- Check `git --version` and `python3 --version`. Python must be 3.11 or newer.
+- On Windows, replace `python3` with `py -3` after cloning the repository.
+- Run commands from the `flowcheck` folder containing this README. No package installation, environment file or virtual environment is required for these examples.
 
 ## 1. Check the input
 
