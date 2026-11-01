@@ -97,10 +97,4 @@ Trace records need `case_id`, `prompt_version`, `source_version` and `attempts`.
 
 For a live trial, start with ten reviewed, non-sensitive examples. Save the exact model, prompt, source and price versions. Capture retries and waiting time as well as the successful call. Run the saved traces through this evaluator before deciding whether a larger experiment is worthwhile. One successful saved response does not demonstrate future reliability or resistance to prompt injection.
 
-## Read alongside the experiments
-
-- [Catch bad data before it becomes a dashboard problem](https://trailblazergarage.com/catch-bad-data-before-it-becomes-a-dashboard-problem/)
-- [Make a job safe to run twice](https://trailblazergarage.com/make-a-job-safe-to-run-twice/)
-- [What does one correct AI result cost?](https://trailblazergarage.com/what-does-one-correct-ai-result-cost/)
-
 This is a local learning project. There is no scheduler, hosted service, model client or external action. Add those when your use case needs them. Code and synthetic fixtures are [MIT licensed](LICENSE).
