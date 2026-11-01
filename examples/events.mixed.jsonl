@@ -1,0 +1,4 @@
+{"schema_version": 1, "event_id": "evt-1", "order_id": "order-1", "amount_minor": 1250, "currency": "GBP", "occurred_at": "2026-10-20T09:00:00Z"}
+{"schema_version": 1, "event_id": "evt-2", "order_id": "order-2", "amount_minor": "9.99", "currency": "GBP", "occurred_at": "2026-10-20T09:00:00Z"}
+{"schema_version": 1, "event_id": "evt-3", "order_id": "order-3", "amount_minor": 500, "currency": "GBR", "occurred_at": "2026-10-20T09:00:00Z"}
+{"schema_version": 1, "event_id": "evt-4", "order_id": "order-4", "amount_minor": 200, "currency": "GBP", "occurred_at": "2026-10-20T09:00:00"}

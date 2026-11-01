@@ -1,0 +1,6 @@
+{
+  "teaching-model": {
+    "input_per_million": "1.00",
+    "output_per_million": "2.00"
+  }
+}

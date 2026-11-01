@@ -1,0 +1,2 @@
+{"schema_version": 1, "event_id": "evt-3", "order_id": "order-3", "amount_minor": 500, "currency": "GBP", "occurred_at": "2026-10-20T09:00:00Z"}
+{"schema_version": 1, "event_id": "evt-1", "order_id": "order-1", "amount_minor": 1300, "currency": "GBP", "occurred_at": "2026-10-20T09:00:00Z"}
